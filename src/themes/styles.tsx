@@ -3,7 +3,7 @@ export const Themes = {
   colors: {
 
     purple: {
-      100: "#F2E0ED",
+      100: "#f1ebf0",
       200: "#e6c2db",
       300: '#7E0B5E',
       500: "#550C41"

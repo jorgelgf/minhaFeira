@@ -8,7 +8,7 @@ align-items: center;
 justify-content: center;
 `;
 
-
 export const Img = styled.Image`
  text-align: center;
 `;
+

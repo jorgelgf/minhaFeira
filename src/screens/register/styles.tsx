@@ -3,10 +3,9 @@
 import styled from 'styled-components/native';
 import { Themes } from '../../themes/styles';
 
-export const Container = styled.View`
+export const Container = styled.ScrollView`
  flex:1;
  background-color: ${Themes.colors.purple[100]};
- align-items: center;
  padding-left: 10%;
  padding-right: 10%;
 `;
@@ -17,8 +16,9 @@ export const BoxLogo = styled.View`
 
 export const TextUp = styled.Text`
  color: ${Themes.colors.purple[500]};
- font-size: ${Themes.fontSize.xl};
  margin-top: 5%;
+ font-size: ${Themes.fontSize.xl};
+  text-align: center;
 `;
 
 export const TextDown = styled.Text`
@@ -29,15 +29,11 @@ export const TextDown = styled.Text`
 export const ContainerInput = styled.View`
  width: 100%;
  align-items: center;
- margin-top: 20%;
+ margin-top: 10%;
 `;
 
 export const BoxInput = styled.View`
  margin-top: 5%;
- width: 100%;
- align-items: center;
- justify-content: center;
-
 `;
 
 export const BoxButton = styled.View`
@@ -49,7 +45,9 @@ export const BoxHelp = styled.View`
  align-items: center;
  justify-content: center;
  flex-direction: row;
- 
+ margin-top: 5%;
+ margin-bottom: 15%;
+
 `;
 export const TextHelp = styled.Text`
  color:${Themes.colors.gray[300]};
@@ -65,6 +63,7 @@ export const TextButtonLink = styled.TouchableOpacity`
  justify-content: center;
  margin:0;
  padding:0;
+ 
  `;
 
 export const TextLink = styled.Text`
